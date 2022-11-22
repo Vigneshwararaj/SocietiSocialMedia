@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE profile [
+<!ELEMENT profile (FirstName,LastName,UID,DOB,Gender,favorites,AccType)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT UID (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT favorites (#PCDATA)>
+<!ELEMENT AccType (#PCDATA)>
+]>
+
+<profile>
+    <FirstName>Muthu</FirstName>
+    <LastName>GP</LastName>
+    <UID>gp_muthu_official</UID>
+    <DOB>2001-12-18</DOB>
+    <Gender>Male</Gender>
+    <favorites>Sports</favorites>
+    <AccType>Public</AccType>
+</profile>

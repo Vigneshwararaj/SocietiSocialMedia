@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema attributeFormDefault="unqualified" 
+  elementFormDefault="qualified" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.example.org/login"
+  xmlns:tns="http://www.example.org/login">
+  <xs:element name="login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="userID"/>
+        <xs:element type="xs:string" name="password"/>
+        <xs:element type="xs:boolean" name="remember"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,14 @@
+{
+	"Register": {
+		"Name": "GP Muthu",
+		"UName": "gp_muthu_official",
+		"DOB": "2001-12-18",
+		"Phone": {
+			"_code": "91",
+			"__text": "8825915180"
+		},
+		"email": "vignesh181201@gmail.com",
+		"password": "asdfghjkl1234",
+		"repassword": "asdfghjkl1234"
+	}
+}

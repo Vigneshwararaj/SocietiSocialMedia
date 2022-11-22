@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Register [
+<!ELEMENT Register (Name,UName,DOB,Phone,email,password,repassword)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT UName (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST Phone code CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT repassword (#PCDATA)>
+]>
+
+<Register>
+    <Name>GP Muthu</Name>
+    <UName>gp_muthu_official</UName>
+    <DOB>2001-12-18</DOB>
+    <Phone code = "91">8825915180</Phone>
+    <email>vignesh181201@gmail.com</email>
+    <password>asdfghjkl1234</password>
+    <repassword>asdfghjkl1234</repassword>
+</Register>

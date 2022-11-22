@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE login [
+<!ELEMENT login (userID,password,checkbox)>
+<!ELEMENT userID (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT checkbox (#PCDATA)>
+]>
+
+<!--<login xmlns="http://www.societi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.societi.com/xsds/login.xsd">-->
+<login>
+    <userID>gp_muthu_official</userID>
+    <password>iamgpmuthu69</password>
+    <checkbox>true</checkbox>
+</login>
